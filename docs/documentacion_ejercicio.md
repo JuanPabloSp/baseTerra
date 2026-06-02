@@ -67,7 +67,7 @@ Permite parametrizar y reutilizar el código de manera limpia:
 #### **main.tf (Estructura Técnica)**
 
 1. **Generadores Dinámicos**:
-   * `random_pet.prefix`: Genera un nombre de mascota aleatorio único (ej. `win-vm-iis-squid`) para evitar colisiones en nombres globales de DNS de Azure.
+   * `random_pet.prefix`: Genera un nombre de mascota aleatorio único (ej. `win-vm-iis-squid`) para evitar colisiones en nombres de DNS globales de Azure.
    * `random_id.random_id`: Genera un hash hexadecimal único de 8 bytes ligado al ciclo de vida del grupo de recursos.
    * `random_password.password`: Genera una contraseña segura y compleja de 20 caracteres para el administrador local de Windows.
 
@@ -131,8 +131,8 @@ Comprobación final de conectividad externa en un navegador accediendo a la IP p
 
 ## 3. Grabaciones e Interacciones del Navegador
 
-Se dispone de 3 grabaciones en vivo que registran de forma transparente la verificación interactiva en el Portal de Azure:
+Se dispone de 3 grabaciones en vivo en formato MP4 (de alta compatibilidad web y nativa de GitHub) que registran de forma transparente la verificación interactiva en el Portal de Azure:
 
-1. **[Grabación General del Grupo de Recursos y VM](./recording.webm)**: Registro de los recursos generales y estado de encendido de la máquina.
-2. **[Grabación de Red y Configuración Perimetral](./recording_extra.webm)**: Registro de la verificación de reglas del NSG y topología de la VNet.
-3. **[Grabación del Diagnóstico de Arranque del Sistema Operativo](./recording_boot.webm)**: Registro de la consola visual y pantalla de logon de Windows Server.
+1. **[Grabación General del Grupo de Recursos y VM](./recording.mp4)**: Registro de los recursos generales y estado de encendido de la máquina.
+2. **[Grabación de Red y Configuración Perimetral](./recording_extra.mp4)**: Registro de la verificación de reglas del NSG y topología de la VNet.
+3. **[Grabación del Diagnóstico de Arranque del Sistema Operativo](./recording_boot.mp4)**: Registro de la consola visual y pantalla de logon de Windows Server.
